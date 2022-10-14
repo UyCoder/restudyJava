@@ -1,4 +1,4 @@
-package dev.ahmed;
+package dev.ahmed.java;
 
 import static java.util.Arrays.binarySearch;
 

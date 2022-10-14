@@ -1,7 +1,5 @@
 package dev.ahmed.exer;
 
-import java.awt.*;
-
 /**
  * @author Ahmed Bughra
  * @create 2022-10-06  11:46 PM

@@ -1,4 +1,4 @@
-package dev.ahmed;
+package dev.ahmed.java;
 
 /**
  * @author Ahmed Bughra
@@ -16,6 +16,10 @@ package dev.ahmed;
  *  - make ui more efficient
  *  - increase cpu usage
  *  - make application more efficient
+ *
+ *  2 ways to use multiThread
+ *      - extends Thread
+ *      - implements Runnable
  */
 public class MultiThread {
 // this is not multiThread

@@ -1,4 +1,4 @@
-package dev.ahmed;
+package dev.ahmed.java;
 
 public class MultiThreadTest {
     public static void main(String[] args) {

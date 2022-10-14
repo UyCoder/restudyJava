@@ -1,4 +1,4 @@
-package dev.ahmed;
+package dev.ahmed.java;
 
 /**
  * @author Ahmed Bughra
