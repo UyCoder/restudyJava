@@ -3,25 +3,35 @@ package dev.ahmed;
 /**
  * @author Ahmed Bughra
  * @create 2022-10-10  11:26 PM
+ *
+ * Java thread  is not secure. So we have solution named Synchronous
+ *  We could take the specific code to the inside of synchronized(){}
+ *  - synchronized(lock){} has lock to open
+ *  - when we use synchronized(){} that means only one thread is allowed to access every time
+ *          - this means synchronized just like single thread is executed
+ *
  */
 
 class Window1 implements Runnable {
     private int ticket = 100;
+    Object lock = new Object(); // this lock object should declarer here
 
     @Override
     public void run() {
         while (true) {
-            if (ticket > 0){
+            synchronized (lock) {
+                        if (ticket > 0) {
+                            try {
+                                Thread.sleep(100);
+                            } catch (InterruptedException e) {
+                                throw new RuntimeException(e);
+                            }
 
-                System.out.println(Thread.currentThread().getName() + " -t- "+ticket );
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
-                ticket --;
-            }else {
-                break;
+                            System.out.println(Thread.currentThread().getName() + " -t- " + ticket);
+                            ticket--;
+                        } else {
+                            break;
+                        }
             }
         }
     }
