@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0211417-3eaf-48d9-90f1-83b7cf92e136" name="Changes" comment="Synchronous in multiThread in java">
-      <change afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/WindowTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/WindowTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/java1/BackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/WindowTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/WindowTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/WindowTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/WindowTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/target/classes/dev/ahmed/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/target/classes/dev/ahmed/Window2.class" beforeDir="false" afterPath="$PROJECT_DIR$/day02/target/classes/dev/ahmed/Window2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/target/classes/dev/ahmed/WindowTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/day02/target/classes/dev/ahmed/WindowTest2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,26 +66,13 @@
       <recent name="C:\Users\Javad\IdeaProjects\restudyJava\day01\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WindowTest3">
+  <component name="RunManager" selected="Application.WindowTest4">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ahmed.Test" />
       <module name="day02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.ahmed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ahmed.exer.WindowTest1" />
-      <module name="restudyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.ahmed.exer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,6 +95,19 @@
     </configuration>
     <configuration name="WindowTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ahmed.WindowTest3" />
+      <module name="day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ahmed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ahmed.WindowTest4" />
       <module name="day02" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WindowTest4" />
         <item itemvalue="Application.WindowTest3" />
         <item itemvalue="Application.WindowTest2" />
         <item itemvalue="Application.dev.ahmed.WindowTest1" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.WindowTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +173,7 @@
       <workItem from="1665838282155" duration="2842000" />
       <workItem from="1666039364234" duration="1814000" />
       <workItem from="1666292162196" duration="1940000" />
-      <workItem from="1666390129326" duration="2359000" />
+      <workItem from="1666390129326" duration="3900000" />
     </task>
     <task id="LOCAL-00001" summary="learn bubble sort">
       <created>1663975836670</created>
@@ -226,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666296144481</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Synchronous in multiThread in java">
+      <created>1666392530902</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666392530902</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
