@@ -14,7 +14,7 @@ package dev.ahmed;
 
 class Window1 implements Runnable {
     private int ticket = 100;
-    Object lock = new Object(); // this lock object should declarer here
+    Object lock = new Object(); // this lock object should be declared here
 
     @Override
     public void run() {
