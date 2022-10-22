@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0211417-3eaf-48d9-90f1-83b7cf92e136" name="Changes" comment="notify thread">
-      <change afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/java2/ProductTest.java" afterDir="false" />
+    <list default="true" id="a0211417-3eaf-48d9-90f1-83b7cf92e136" name="Changes" comment="notify thread example">
+      <change afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/java2/ThreadNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/java2/CommuniciationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/java2/CommuniciationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="C:\Users\Javad\IdeaProjects\restudyJava\day01\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductTest">
+  <component name="RunManager" selected="Application.ThreadNew">
     <configuration name="CommuniciationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ahmed.java2.CommuniciationTest" />
       <module name="day02" />
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTesd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ahmed.java1.ThreadTesd" />
+    <configuration name="ThreadNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ahmed.java2.ThreadNew" />
       <module name="day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ahmed.java1.*" />
+          <option name="PATTERN" value="dev.ahmed.java2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadNew" />
         <item itemvalue="Application.ProductTest" />
         <item itemvalue="Application.CommuniciationTest" />
         <item itemvalue="Application.LockTest" />
         <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.ThreadTesd" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +176,7 @@
       <workItem from="1666292162196" duration="1940000" />
       <workItem from="1666390129326" duration="4181000" />
       <workItem from="1666394627662" duration="1000" />
-      <workItem from="1666419956834" duration="10153000" />
+      <workItem from="1666419956834" duration="12690000" />
     </task>
     <task id="LOCAL-00001" summary="learn bubble sort">
       <created>1663975836670</created>
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666428084348</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="notify thread example">
+      <created>1666435984935</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666435984935</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +293,7 @@
     <MESSAGE value="deadlock for synchronize" />
     <MESSAGE value=" synchronize" />
     <MESSAGE value="notify thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="notify thread" />
+    <MESSAGE value="notify thread example" />
+    <option name="LAST_COMMIT_MESSAGE" value="notify thread example" />
   </component>
 </project>
