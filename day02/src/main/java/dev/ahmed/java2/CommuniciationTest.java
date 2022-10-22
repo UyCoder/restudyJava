@@ -14,6 +14,13 @@ package dev.ahmed.java2;
  *      2. All those methods must be this.
  *                  this.wait() , this.notify() , this.notifyAll()
  *      3. All other methods are in java.lang.Object
+ *
+ *
+ * Interview Questions: Similarities and differences between sleep() and wait()
+ *      1. Similarities: Both sleep() and wait() will pause the thread
+ *      2. differences : 1) declared places are different. sleep() on Thread class , wait() will on Object class
+ *                       2) requirements are different. sleep() can be any circumstances, wait() must be called on synchronized
+ *                       3) Not both of then can unlock synchronized lock . sleep() will not unlock, wait() can unlock synchronized
  */
 
 class Number implements Runnable {
