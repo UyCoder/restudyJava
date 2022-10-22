@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0211417-3eaf-48d9-90f1-83b7cf92e136" name="Changes" comment="notify thread example">
-      <change afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/java2/ThreadNew.java" afterDir="false" />
+    <list default="true" id="a0211417-3eaf-48d9-90f1-83b7cf92e136" name="Changes" comment="Use Callable to create thread">
+      <change afterPath="$PROJECT_DIR$/day02/src/main/java/dev/ahmed/java2/ThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,26 +66,13 @@
       <recent name="C:\Users\Javad\IdeaProjects\restudyJava\day01\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadNew">
+  <component name="RunManager" selected="Application.ThreadPool">
     <configuration name="CommuniciationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ahmed.java2.CommuniciationTest" />
       <module name="day02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.ahmed.java2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.ahmed.java1.DeadLock" />
-      <module name="day02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.ahmed.java1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ahmed.java2.ThreadPool" />
+      <module name="day02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ahmed.java2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="restudyJava" />
       <method v="2">
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPool" />
         <item itemvalue="Application.ThreadNew" />
         <item itemvalue="Application.ProductTest" />
         <item itemvalue="Application.CommuniciationTest" />
         <item itemvalue="Application.LockTest" />
-        <item itemvalue="Application.DeadLock" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,7 @@
       <workItem from="1666292162196" duration="1940000" />
       <workItem from="1666390129326" duration="4181000" />
       <workItem from="1666394627662" duration="1000" />
-      <workItem from="1666419956834" duration="12690000" />
+      <workItem from="1666419956834" duration="15299000" />
     </task>
     <task id="LOCAL-00001" summary="learn bubble sort">
       <created>1663975836670</created>
@@ -269,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666435984935</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Use Callable to create thread">
+      <created>1666438732940</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666438732941</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +301,7 @@
     <MESSAGE value=" synchronize" />
     <MESSAGE value="notify thread" />
     <MESSAGE value="notify thread example" />
-    <option name="LAST_COMMIT_MESSAGE" value="notify thread example" />
+    <MESSAGE value="Use Callable to create thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use Callable to create thread" />
   </component>
 </project>
